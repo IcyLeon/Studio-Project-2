@@ -486,27 +486,33 @@ void SceneUI::Init()
 	//houses
 	meshList[GEO_HOUSE1] = MeshBuilder::GenerateOBJMTL("modelhouse1", "OBJ//house_rundown.obj", "OBJ//house_rundown.mtl");
 	meshList[GEO_HOUSE1]->textureID = LoadTGA("Image//house_rundown.tga");
-	objectlist[GEO_HOUSE1].setproperties(Vector3(-19, 0, 20), Vector3(0, -90, 0), Vector3(1, 1, 1));
-	objectlist[GEO_HOUSE1].Setuphitbox(Vector3(5.5, 3, 2.5), Vector3(0, 3, 0));
+	objectlist[hb_HOUSE1].setmesh(GEO_HOUSE1);
+	objectlist[hb_HOUSE1].setproperties(Vector3(-19, 0, 20), Vector3(0, -90, 0), Vector3(1, 1, 1));
+	objectlist[hb_HOUSE1].Setuphitbox(Vector3(5.5, 3, 2.5), Vector3(0, 3, 0));
 	meshList[GEO_HOUSE2] = MeshBuilder::GenerateOBJMTL("modelhouse2", "OBJ//house_type07.obj", "OBJ//house_type07.mtl");
-	objectlist[GEO_HOUSE2].setproperties(Vector3(2, 0, 22), Vector3(0, 0, 0), Vector3(10, 10, 10));
-	objectlist[GEO_HOUSE2].Setuphitbox(Vector3(6, 3, 4), Vector3(0, 3, 0));
+	objectlist[hb_HOUSE2].setmesh(GEO_HOUSE2);
+	objectlist[hb_HOUSE2].setproperties(Vector3(2, 0, 22), Vector3(0, 0, 0), Vector3(10, 10, 10));
+	objectlist[hb_HOUSE2].Setuphitbox(Vector3(6, 3, 4), Vector3(0, 3, 0));
 	meshList[GEO_HOUSE3] = MeshBuilder::GenerateOBJMTL("modelhouse3", "OBJ//house_type02.obj", "OBJ//house_type02.mtl");
-	objectlist[GEO_HOUSE3].setproperties(Vector3(2, 0, -2), Vector3(0, 0, 0), Vector3(10, 10, 10));
-	objectlist[GEO_HOUSE3].Setuphitbox(Vector3(6, 6, 4.1), Vector3(-0.1, 6, 2.5));
-	otherhitboxes[hb_house31].setproperties(Vector3(2, 0, -2), Vector3(0, 0, 0), Vector3(10, 10, 10));
-	otherhitboxes[hb_house31].Setuphitbox(Vector3(4, 6, 6.2), Vector3(2, 6, - 0.2));
+	objectlist[hb_HOUSE3].setmesh(GEO_HOUSE3);
+	objectlist[hb_HOUSE3].setproperties(Vector3(2, 0, -2), Vector3(0, 0, 0), Vector3(10, 10, 10));
+	objectlist[hb_HOUSE3].Setuphitbox(Vector3(6, 6, 4.1), Vector3(-0.1, 6, 2.5));
+	objectlist[hb_house31].setproperties(Vector3(2, 0, -2), Vector3(0, 0, 0), Vector3(10, 10, 10));
+	objectlist[hb_house31].Setuphitbox(Vector3(4, 6, 6.2), Vector3(2, 6, - 0.2));
 	meshList[GEO_SHOP_STRUCTURE] = MeshBuilder::GenerateOBJMTL("modelshopstruct", "OBJ//scaffolding_structure.obj", "OBJ//scaffolding_structure.mtl");
 	meshList[GEO_SHOP_STRUCTURE]->textureID = LoadTGA("Image//metal.tga");
-	objectlist[GEO_SHOP_STRUCTURE].setproperties(Vector3(22, 0, -4), Vector3(0, 0, 0), Vector3(4, 4, 8));
-	objectlist[GEO_SHOP_STRUCTURE].Setuphitbox(Vector3(2, 2, 4), Vector3(0, 2, 0));
+	objectlist[hb_SHOP_STRUCTURE].setmesh(GEO_SHOP_STRUCTURE);
+	objectlist[hb_SHOP_STRUCTURE].setproperties(Vector3(22, 0, -4), Vector3(0, 0, 0), Vector3(4, 4, 8));
+	objectlist[hb_SHOP_STRUCTURE].Setuphitbox(Vector3(2, 2, 4), Vector3(0, 2, 0));
 	meshList[GEO_SHOP_ROOF] = MeshBuilder::GenerateOBJMTL("modelshoproof", "OBJ//roofMetal_typeA.obj", "OBJ//roofMetal_typeA.mtl");
 	meshList[GEO_SHOP_ROOF]->textureID = LoadTGA("Image//roof_plates.tga");
-	objectlist[GEO_SHOP_ROOF].setproperties(Vector3(22, 3.7, -4), Vector3(0, 90, 0), Vector3(9, 4, 5));
-	objectlist[GEO_SHOP_ROOF].Setuphitbox(Vector3(2, 2, 4), Vector3(0, 2, 0));
+	objectlist[hb_SHOP_ROOF].setmesh(GEO_SHOP_ROOF);
+	objectlist[hb_SHOP_ROOF].setproperties(Vector3(22, 3.7, -4), Vector3(0, 90, 0), Vector3(9, 4, 5));
+	objectlist[hb_SHOP_ROOF].Setuphitbox(Vector3(2, 2, 4), Vector3(0, 2, 0));
 	meshList[GEO_HOUSE4] = MeshBuilder::GenerateOBJMTL("modelhouse4", "OBJ//house_type15.obj", "OBJ//house_type15.mtl");
-	objectlist[GEO_HOUSE4].setproperties(Vector3(-20, 0, -3), Vector3(0, 0, 0), Vector3(13, 13, 13));
-	objectlist[GEO_HOUSE4].Setuphitbox(Vector3(5, 6, 5), Vector3(0, 6, 0));
+	objectlist[hb_HOUSE4].setmesh(GEO_HOUSE4);
+	objectlist[hb_HOUSE4].setproperties(Vector3(-20, 0, -3), Vector3(0, 0, 0), Vector3(13, 13, 13));
+	objectlist[hb_HOUSE4].Setuphitbox(Vector3(5, 6, 5), Vector3(0, 6, 0));
 
 
 	//walls
@@ -517,112 +523,119 @@ void SceneUI::Init()
 	//others
 	meshList[GEO_BARREL] = MeshBuilder::GenerateOBJMTL("modelbarrel", "OBJ//barrel.obj", "OBJ//barrel.mtl");
 	meshList[GEO_BARREL]->textureID = LoadTGA("Image//barrel.tga");
-	objectlist[GEO_BARREL].setproperties(Vector3(22.5, 0, 1), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	objectlist[GEO_BARREL].Setuphitbox(Vector3(0.65, 0.75, 0.65), Vector3(0, 0.75, 0));
-	otherhitboxes[hb_barrel1].setmesh(GEO_BARREL);
-	otherhitboxes[hb_barrel1].setproperties(Vector3(22.5, 0, -9), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	otherhitboxes[hb_barrel1].Setuphitbox(Vector3(0.65, 0.75, 0.65), Vector3(0, 0.75, 0));
+	objectlist[hb_BARREL].setmesh(GEO_BARREL);
+	objectlist[hb_BARREL].setproperties(Vector3(22.5, 0, 1), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_BARREL].Setuphitbox(Vector3(0.65, 0.75, 0.65), Vector3(0, 0.75, 0));
+	objectlist[hb_barrel1].setmesh(GEO_BARREL);
+	objectlist[hb_barrel1].setproperties(Vector3(22.5, 0, -9), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_barrel1].Setuphitbox(Vector3(0.65, 0.75, 0.65), Vector3(0, 0.75, 0));
 
 	meshList[GEO_CRATE] = MeshBuilder::GenerateOBJMTL("modelcrate", "OBJ//crate.obj", "OBJ//crate.mtl");
 	meshList[GEO_CRATE]->textureID = LoadTGA("Image//barrel.tga");
-	objectlist[GEO_CRATE].setproperties(Vector3(24, 0, 1), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	objectlist[GEO_CRATE].Setuphitbox(Vector3(0.75, 0.75, 0.75), Vector3(0, 0.75, 0));
-	otherhitboxes[hb_crate1].setmesh(GEO_CRATE);
-	otherhitboxes[hb_crate1].setproperties(Vector3(24, 0, -9), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	otherhitboxes[hb_crate1].Setuphitbox(Vector3(0.75, 0.75, 0.75), Vector3(0, 0.75, 0));
-	otherhitboxes[hb_crate2].setmesh(GEO_CRATE);
-	otherhitboxes[hb_crate2].setproperties(Vector3(24, 0, 2.6), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	otherhitboxes[hb_crate2].Setuphitbox(Vector3(0.75, 0.75, 0.75), Vector3(0, 0.75, 0));
-	otherhitboxes[hb_crate3].setmesh(GEO_CRATE);
-	otherhitboxes[hb_crate3].setproperties(Vector3(24, 0, -10.6), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	otherhitboxes[hb_crate3].Setuphitbox(Vector3(0.75, 0.75, 0.75), Vector3(0, 0.75, 0));
+	objectlist[hb_CRATE].setmesh(GEO_CRATE);
+	objectlist[hb_CRATE].setproperties(Vector3(24, 0, 1), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_CRATE].Setuphitbox(Vector3(0.75, 0.75, 0.75), Vector3(0, 0.75, 0));
+	objectlist[hb_crate1].setmesh(GEO_CRATE);
+	objectlist[hb_crate1].setproperties(Vector3(24, 0, -9), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_crate1].Setuphitbox(Vector3(0.75, 0.75, 0.75), Vector3(0, 0.75, 0));
+	objectlist[hb_crate2].setmesh(GEO_CRATE);
+	objectlist[hb_crate2].setproperties(Vector3(24, 0, 2.6), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_crate2].Setuphitbox(Vector3(0.75, 0.75, 0.75), Vector3(0, 0.75, 0));
+	objectlist[hb_crate3].setmesh(GEO_CRATE);
+	objectlist[hb_crate3].setproperties(Vector3(24, 0, -10.6), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_crate3].Setuphitbox(Vector3(0.75, 0.75, 0.75), Vector3(0, 0.75, 0));
 
 	meshList[GEO_LAMPPOST] = MeshBuilder::GenerateOBJMTL("modellamppost", "OBJ//lightpost.obj", "OBJ//lightpost.mtl");
-	objectlist[GEO_LAMPPOST].setproperties(Vector3(-12, 0, 16), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	objectlist[GEO_LAMPPOST].Setuphitbox(Vector3(0.5, 2, 0.5), Vector3(0, 2, 0));
+	objectlist[hb_LAMPPOST].setmesh(GEO_LAMPPOST);
+	objectlist[hb_LAMPPOST].setproperties(Vector3(-12, 0, 16), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_LAMPPOST].Setuphitbox(Vector3(0.5, 2, 0.5), Vector3(0, 2, 0));
 	//set light pos to the lamp post
-	light[0].position.Set(objectlist[GEO_LAMPPOST].getposition().x, objectlist[GEO_LAMPPOST].getposition().y + 6, objectlist[GEO_LAMPPOST].getposition().z);
-	otherhitboxes[hb_lamppost2].setmesh(GEO_LAMPPOST);
-	otherhitboxes[hb_lamppost2].setproperties(Vector3(19, 0, 16), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	otherhitboxes[hb_lamppost2].Setuphitbox(Vector3(0.5, 2, 0.5), Vector3(0, 2, 0));
-	light[5].position.Set(otherhitboxes[hb_lamppost2].getposition().x, otherhitboxes[hb_lamppost2].getposition().y + 6, otherhitboxes[hb_lamppost2].getposition().z);
-	otherhitboxes[hb_lamppost3].setmesh(GEO_LAMPPOST);
-	otherhitboxes[hb_lamppost3].setproperties(Vector3(-12, 0, -11), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	otherhitboxes[hb_lamppost3].Setuphitbox(Vector3(0.5, 2, 0.5), Vector3(0, 2, 0));
-	light[6].position.Set(otherhitboxes[hb_lamppost3].getposition().x, otherhitboxes[hb_lamppost3].getposition().y + 6, otherhitboxes[hb_lamppost3].getposition().z);
-	otherhitboxes[hb_lamppost4].setmesh(GEO_LAMPPOST);
-	otherhitboxes[hb_lamppost4].setproperties(Vector3(19, 0, -14), Vector3(0, 0, 0), Vector3(5, 5, 5));
-	otherhitboxes[hb_lamppost4].Setuphitbox(Vector3(0.5, 2, 0.5), Vector3(0, 2, 0));
-	light[7].position.Set(otherhitboxes[hb_lamppost4].getposition().x, otherhitboxes[hb_lamppost4].getposition().y + 6, otherhitboxes[hb_lamppost4].getposition().z);
+	light[0].position.Set(objectlist[hb_LAMPPOST].getposition().x, objectlist[hb_LAMPPOST].getposition().y + 6, objectlist[hb_LAMPPOST].getposition().z);
+	objectlist[hb_lamppost2].setmesh(GEO_LAMPPOST);
+	objectlist[hb_lamppost2].setproperties(Vector3(19, 0, 16), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_lamppost2].Setuphitbox(Vector3(0.5, 2, 0.5), Vector3(0, 2, 0));
+	light[5].position.Set(objectlist[hb_lamppost2].getposition().x, objectlist[hb_lamppost2].getposition().y + 6, objectlist[hb_lamppost2].getposition().z);
+	objectlist[hb_lamppost3].setmesh(GEO_LAMPPOST);
+	objectlist[hb_lamppost3].setproperties(Vector3(-12, 0, -11), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_lamppost3].Setuphitbox(Vector3(0.5, 2, 0.5), Vector3(0, 2, 0));
+	light[6].position.Set(objectlist[hb_lamppost3].getposition().x, objectlist[hb_lamppost3].getposition().y + 6, objectlist[hb_lamppost3].getposition().z);
+	objectlist[hb_lamppost4].setmesh(GEO_LAMPPOST);
+	objectlist[hb_lamppost4].setproperties(Vector3(19, 0, -14), Vector3(0, 0, 0), Vector3(5, 5, 5));
+	objectlist[hb_lamppost4].Setuphitbox(Vector3(0.5, 2, 0.5), Vector3(0, 2, 0));
+	light[7].position.Set(objectlist[hb_lamppost4].getposition().x, objectlist[hb_lamppost4].getposition().y + 6, objectlist[hb_lamppost4].getposition().z);
 	meshList[GEO_BED] = MeshBuilder::GenerateOBJMTL("modelbed", "OBJ//bedSingle.obj", "OBJ//bedSingle.mtl");
-	objectlist[GEO_BED].setproperties(Vector3(-22, -7, 19.5), Vector3(0, 0, 0), Vector3(3, 3, 3));
-	objectlist[GEO_BED].Setuphitbox(Vector3(1, 0.5, 2), Vector3(-2, 0.5, 2));
-	otherhitboxes[hb_bed].setmesh(GEO_BED);
-	otherhitboxes[hb_bed].setproperties(Vector3(-62, -7, 19.5), Vector3(0, 0, 0), Vector3(3, 3, 3));
-	otherhitboxes[hb_bed].Setuphitbox(Vector3(1, 0.5, 2), Vector3(-2, 0.5, 2));
+	objectlist[hb_BED].setmesh(GEO_BED);
+	objectlist[hb_BED].setproperties(Vector3(-22, -7, 19.5), Vector3(0, 0, 0), Vector3(3, 3, 3));
+	objectlist[hb_BED].Setuphitbox(Vector3(1, 0.5, 2), Vector3(-2, 0.5, 2));
+	objectlist[hb_bed].setmesh(GEO_BED);
+	objectlist[hb_bed].setproperties(Vector3(-62, -7, 19.5), Vector3(0, 0, 0), Vector3(3, 3, 3));
+	objectlist[hb_bed].Setuphitbox(Vector3(1, 0.5, 2), Vector3(-2, 0.5, 2));
 	meshList[GEO_DESK] = MeshBuilder::GenerateOBJMTL("model desk", "OBJ//desk.obj", "OBJ//desk.mtl");
-	objectlist[GEO_DESK].setproperties(Vector3(-15, -7, 18.5), Vector3(0, 90, 0), Vector3(3, 3, 3));
-	objectlist[GEO_DESK].Setuphitbox(Vector3(0.4, 0.5, 1), Vector3(0.7, 0.5, 1));
-	otherhitboxes[hb_table].setmesh(GEO_DESK);
-	otherhitboxes[hb_table].setproperties(Vector3(-55, -7, 18.5), Vector3(0, 90, 0), Vector3(3, 3, 3));
-	otherhitboxes[hb_table].Setuphitbox(Vector3(0.4, 0.5, 1), Vector3(0.7, 0.5, 1));
+	objectlist[hb_DESK].setmesh(GEO_DESK);
+	objectlist[hb_DESK].setproperties(Vector3(-15, -7, 18.5), Vector3(0, 90, 0), Vector3(3, 3, 3));
+	objectlist[hb_DESK].Setuphitbox(Vector3(0.4, 0.5, 1), Vector3(0.7, 0.5, 1));
+	objectlist[hb_table].setmesh(GEO_DESK);
+	objectlist[hb_table].setproperties(Vector3(-55, -7, 18.5), Vector3(0, 90, 0), Vector3(3, 3, 3));
+	objectlist[hb_table].Setuphitbox(Vector3(0.4, 0.5, 1), Vector3(0.7, 0.5, 1));
 	meshList[GEO_LAPTOP] = MeshBuilder::GenerateOBJMTL("model laptop", "OBJ//laptop.obj", "OBJ//laptop.mtl");
-	objectlist[GEO_LAPTOP].setproperties(Vector3(-15, -5.8, 19.5), Vector3(0, 90, 0), Vector3(3, 3, 3));
-	objectlist[GEO_LAPTOP].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_LAPTOP].setmesh(GEO_LAPTOP);
+	objectlist[hb_LAPTOP].setproperties(Vector3(-15, -5.8, 19.5), Vector3(0, 90, 0), Vector3(3, 3, 3));
+	objectlist[hb_LAPTOP].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
 	meshList[GEO_HOMELAMP] = MeshBuilder::GenerateOBJMTL("model lamp", "OBJ//lampWall.obj", "OBJ//lampWall.mtl");
-	objectlist[GEO_HOMELAMP].setproperties(Vector3(-19, -4.5, 22.8), Vector3(0, 0, 0), Vector3(3, 3, 3));
-	objectlist[GEO_HOMELAMP].Setuphitbox(Vector3(0, 0, 0), Vector3(0, -50, 0));
-	otherhitboxes[hb_lamp].setmesh(GEO_HOMELAMP);
-	otherhitboxes[hb_lamp].setproperties(Vector3(-59, -4.5, 22.8), Vector3(0, 0, 0), Vector3(3, 3, 3));
-	otherhitboxes[hb_lamp].Setuphitbox(Vector3(0, 0, 0), Vector3(0, -50, 0));
+	objectlist[hb_HOMELAMP].setmesh(GEO_HOMELAMP);
+	objectlist[hb_HOMELAMP].setproperties(Vector3(-19, -4.5, 22.8), Vector3(0, 0, 0), Vector3(3, 3, 3));
+	objectlist[hb_HOMELAMP].Setuphitbox(Vector3(0, 0, 0), Vector3(0, -50, 0));
+	objectlist[hb_lamp].setmesh(GEO_HOMELAMP);
+	objectlist[hb_lamp].setproperties(Vector3(-59, -4.5, 22.8), Vector3(0, 0, 0), Vector3(3, 3, 3));
+	objectlist[hb_lamp].Setuphitbox(Vector3(0, 0, 0), Vector3(0, -50, 0));
 	meshList[GEO_WATER] = MeshBuilder::GenerateQuad("modelwater", Color(0.6901961f, 0.9568627f, 1), 1);
 	meshList[GEO_WATER]->material.kAmbient.Set(0.3901961f, 0.6568627f, 0.7);
 	meshList[GEO_WATER]->material.kDiffuse.Set(0.6901961f, 0.9568627f, 1);
 	meshList[GEO_WATER]->material.kSpecular.Set(0.3f, 0.3f, 0.3f);
 	meshList[GEO_WATER]->material.kShininess = .5f;
-	otherhitboxes[hb_water].setmesh(GEO_WATER);
-	otherhitboxes[hb_water].setproperties(Vector3(10, -20, 0), Vector3(0, -90, 0), Vector3(20, 20, 20));
-	otherhitboxes[hb_water].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_water].setmesh(GEO_WATER);
+	objectlist[hb_water].setproperties(Vector3(10, -20, 0), Vector3(0, -90, 0), Vector3(20, 20, 20));
+	objectlist[hb_water].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
 	meshList[GEO_BOAT] = MeshBuilder::GenerateOBJMTL("modelboat", "OBJ//canoe.obj", "OBJ//canoe.mtl");
-	otherhitboxes[hb_BOAT1].setmesh(GEO_BOAT);
-	otherhitboxes[hb_BOAT1].setproperties(Vector3(10, -22.5, 0), Vector3(90, 180, -90), Vector3(1, 1, 1));
-	otherhitboxes[hb_BOAT1].Setuphitbox(Vector3(0.2, 0.6, 0.2), Vector3(0, 0, 0));
+	objectlist[hb_BOAT1].setmesh(GEO_BOAT);
+	objectlist[hb_BOAT1].setproperties(Vector3(10, -22.5, 0), Vector3(90, 180, -90), Vector3(1, 1, 1));
+	objectlist[hb_BOAT1].Setuphitbox(Vector3(0.2, 0.6, 0.2), Vector3(0, 0, 0));
 	meshList[GEO_GROUND] = MeshBuilder::GenerateOBJMTL("modeground", "OBJ//cliff_block_rock.obj", "OBJ//cliff_block_rock.mtl");
-	otherhitboxes[hb_side1].setmesh(GEO_GROUND);
-	otherhitboxes[hb_side1].setproperties(Vector3(10, -20, 5), Vector3(90, 180, -90), Vector3(5.5, 1, 15));
-	otherhitboxes[hb_side1].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
-	otherhitboxes[hb_side2].setmesh(GEO_GROUND);
-	otherhitboxes[hb_side2].setproperties(Vector3(10, -20, -5), Vector3(90, 180, -90), Vector3(5.5, 1, 15));
-	otherhitboxes[hb_side2].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_side1].setmesh(GEO_GROUND);
+	objectlist[hb_side1].setproperties(Vector3(10, -20, 5), Vector3(90, 180, -90), Vector3(5.5, 1, 15));
+	objectlist[hb_side1].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_side2].setmesh(GEO_GROUND);
+	objectlist[hb_side2].setproperties(Vector3(10, -20, -5), Vector3(90, 180, -90), Vector3(5.5, 1, 15));
+	objectlist[hb_side2].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
 	meshList[GEO_ROCK] = MeshBuilder::GenerateOBJMTL("modelrock", "OBJ//rock_smallE.obj", "OBJ//rock_smallE.mtl");
-	otherhitboxes[hb_ROCK1].setmesh(GEO_ROCK);
-	otherhitboxes[hb_ROCK1].setproperties(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25), Vector3(90, 180, -90), Vector3(1.5, 1.5, 1.5));
-	otherhitboxes[hb_ROCK1].Setuphitbox(Vector3(0.2, 0.2, 0.2), Vector3(0, 0, 0));
-	otherhitboxes[hb_ROCK2].setmesh(GEO_ROCK);
-	otherhitboxes[hb_ROCK2].setproperties(Vector3(10, -12.5, -2 + (float)(rand() % 16) * 0.25), Vector3(90, 180, -90), Vector3(1.5, 1.5, 1.5));
-	otherhitboxes[hb_ROCK2].Setuphitbox(Vector3(0.2, 0.2, 0.2), Vector3(0, 0, 0));
-	otherhitboxes[hb_ROCK3].setmesh(GEO_ROCK);
-	otherhitboxes[hb_ROCK3].setproperties(Vector3(10, -10, -2 + (float)(rand() % 16) * 0.25), Vector3(90, 180, -90), Vector3(1.5, 1.5, 1.5));
-	otherhitboxes[hb_ROCK3].Setuphitbox(Vector3(0.2, 0.2, 0.2), Vector3(0, 0, 0));
-	otherhitboxes[hb_ROCK4].setmesh(GEO_ROCK);
-	otherhitboxes[hb_ROCK4].setproperties(Vector3(10, -7.5, -2 + (float)(rand() % 16) * 0.25), Vector3(90, 180, -90), Vector3(1.5, 1.5, 1.5));
-	otherhitboxes[hb_ROCK4].Setuphitbox(Vector3(0.2, 0.2, 0.2), Vector3(0, 0, 0));
+	objectlist[hb_ROCK1].setmesh(GEO_ROCK);
+	objectlist[hb_ROCK1].setproperties(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25), Vector3(90, 180, -90), Vector3(1.5, 1.5, 1.5));
+	objectlist[hb_ROCK1].Setuphitbox(Vector3(0.2, 0.2, 0.2), Vector3(0, 0, 0));
+	objectlist[hb_ROCK2].setmesh(GEO_ROCK);
+	objectlist[hb_ROCK2].setproperties(Vector3(10, -12.5, -2 + (float)(rand() % 16) * 0.25), Vector3(90, 180, -90), Vector3(1.5, 1.5, 1.5));
+	objectlist[hb_ROCK2].Setuphitbox(Vector3(0.2, 0.2, 0.2), Vector3(0, 0, 0));
+	objectlist[hb_ROCK3].setmesh(GEO_ROCK);
+	objectlist[hb_ROCK3].setproperties(Vector3(10, -10, -2 + (float)(rand() % 16) * 0.25), Vector3(90, 180, -90), Vector3(1.5, 1.5, 1.5));
+	objectlist[hb_ROCK3].Setuphitbox(Vector3(0.2, 0.2, 0.2), Vector3(0, 0, 0));
+	objectlist[hb_ROCK4].setmesh(GEO_ROCK);
+	objectlist[hb_ROCK4].setproperties(Vector3(10, -7.5, -2 + (float)(rand() % 16) * 0.25), Vector3(90, 180, -90), Vector3(1.5, 1.5, 1.5));
+	objectlist[hb_ROCK4].Setuphitbox(Vector3(0.2, 0.2, 0.2), Vector3(0, 0, 0));
 	meshList[GEO_TREE] = MeshBuilder::GenerateOBJMTL("modeltree", "OBJ//tree_default_dark.obj", "OBJ//tree_default_dark.mtl");
-	otherhitboxes[hb_tree1].setmesh(GEO_TREE);
-	otherhitboxes[hb_tree1].setproperties(Vector3(-20, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
-	otherhitboxes[hb_tree1].Setuphitbox(Vector3(1, 6, 1), Vector3(0, 4, 0));
-	otherhitboxes[hb_tree2].setmesh(GEO_TREE);
-	otherhitboxes[hb_tree2].setproperties(Vector3(-10, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
-	otherhitboxes[hb_tree2].Setuphitbox(Vector3(1, 6, 1), Vector3(0, 4, 0));
-	otherhitboxes[hb_tree3].setmesh(GEO_TREE);
-	otherhitboxes[hb_tree3].setproperties(Vector3(0, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
-	otherhitboxes[hb_tree3].Setuphitbox(Vector3(1, 6, 1), Vector3(0, 4, 0));
-	otherhitboxes[hb_tree4].setmesh(GEO_TREE);
-	otherhitboxes[hb_tree4].setproperties(Vector3(10, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
-	otherhitboxes[hb_tree4].Setuphitbox(Vector3(1, 6, 1), Vector3(0, 4, 0));
-	otherhitboxes[hb_newtree5].setmesh(GEO_TREE);
-	otherhitboxes[hb_newtree5].setproperties(Vector3(20, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
-	otherhitboxes[hb_newtree5].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_tree1].setmesh(GEO_TREE);
+	objectlist[hb_tree1].setproperties(Vector3(-20, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
+	objectlist[hb_tree1].Setuphitbox(Vector3(1, 6, 1), Vector3(0, 4, 0));
+	objectlist[hb_tree2].setmesh(GEO_TREE);
+	objectlist[hb_tree2].setproperties(Vector3(-10, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
+	objectlist[hb_tree2].Setuphitbox(Vector3(1, 6, 1), Vector3(0, 4, 0));
+	objectlist[hb_tree3].setmesh(GEO_TREE);
+	objectlist[hb_tree3].setproperties(Vector3(0, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
+	objectlist[hb_tree3].Setuphitbox(Vector3(1, 6, 1), Vector3(0, 4, 0));
+	objectlist[hb_tree4].setmesh(GEO_TREE);
+	objectlist[hb_tree4].setproperties(Vector3(10, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
+	objectlist[hb_tree4].Setuphitbox(Vector3(1, 6, 1), Vector3(0, 4, 0));
+	objectlist[hb_newtree5].setmesh(GEO_TREE);
+	objectlist[hb_newtree5].setproperties(Vector3(20, 0, -23), Vector3(0, 0, 0), Vector3(10, 7, 10));
+	objectlist[hb_newtree5].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
 	meshList[GEO_TREERING] = MeshBuilder::GenerateOBJMTL("modeltreering", "OBJ//campfire_stones.obj", "OBJ//campfire_stones.mtl");
 	objectlist[GEO_TREERING].setproperties(Vector3(20, 0, -23), Vector3(0, 0, 0), Vector3(7, 7, 7));
 	objectlist[GEO_TREERING].Setuphitbox(Vector3(0,0,0), Vector3(0,-50,0));
@@ -654,57 +667,57 @@ void SceneUI::Init()
 	meshList[GEO_WATERDROP] = MeshBuilder::GenerateQuad("uiwaterdrop", Color(1, 1, 1), 1);
 	meshList[GEO_WATERDROP]->textureID = LoadTGA("Image//water-drop.tga");
 	meshList[GEO_DOORWAY] = MeshBuilder::GenerateOBJMTL("modeldoorway", "OBJ//doorway.obj", "OBJ//doorway.mtl");
-	otherhitboxes[hb_house1_door].setmesh(GEO_DOORWAY);
-	otherhitboxes[hb_house1_door].setproperties(Vector3(-20, -7, 17.3), Vector3(0, 180, 0), Vector3(3, 3, 3));
-	otherhitboxes[hb_house1_door].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
-	otherhitboxes[hb_house2_door].setmesh(GEO_DOORWAY);
-	otherhitboxes[hb_house2_door].setproperties(Vector3(-60, -7, 17.3), Vector3(0, 180, 0), Vector3(3, 3, 3));
-	otherhitboxes[hb_house2_door].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_house1_door].setmesh(GEO_DOORWAY);
+	objectlist[hb_house1_door].setproperties(Vector3(-20, -7, 17.3), Vector3(0, 180, 0), Vector3(3, 3, 3));
+	objectlist[hb_house1_door].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_house2_door].setmesh(GEO_DOORWAY);
+	objectlist[hb_house2_door].setproperties(Vector3(-60, -7, 17.3), Vector3(0, 180, 0), Vector3(3, 3, 3));
+	objectlist[hb_house2_door].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
 	meshList[GEO_HOUSE_WALL] = MeshBuilder::GenerateOBJMTL("modelhousewall", "OBJ//wall.obj", "OBJ//wall.mtl");
-	otherhitboxes[hb_house1_wall_back].setmesh(GEO_HOUSE_WALL);
-	otherhitboxes[hb_house1_wall_back].setproperties(Vector3(-25,-7,23), Vector3(0, 180, 0), Vector3(11, 3, 5));
-	otherhitboxes[hb_house1_wall_back].Setuphitbox(Vector3(5.5, 2, 1), Vector3(5.5, 2, 0.5));
-	otherhitboxes[hb_house1_wall_right].setmesh(GEO_HOUSE_WALL);
-	otherhitboxes[hb_house1_wall_right].setproperties(Vector3(-25, -7, 17), Vector3(0, 90, 0), Vector3(6, 3, 5));
-	otherhitboxes[hb_house1_wall_right].Setuphitbox(Vector3(1, 2, 5.5), Vector3(-0.5, 2, 5.5));
-	otherhitboxes[hb_house1_roof].setmesh(GEO_HOUSE_WALL);
-	otherhitboxes[hb_house1_roof].setproperties(Vector3(-14, -3, 17), Vector3(90, 0, 0), Vector3(11, 6, 3));
-	otherhitboxes[hb_house1_roof].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 50));
-	otherhitboxes[hb_house2_wall_back].setmesh(GEO_HOUSE_WALL);
-	otherhitboxes[hb_house2_wall_back].setproperties(Vector3(-65, -7, 23), Vector3(0, 180, 0), Vector3(11, 3, 5));
-	otherhitboxes[hb_house2_wall_back].Setuphitbox(Vector3(5.5, 2, 1), Vector3(5.5, 2, 0.5));
-	otherhitboxes[hb_house2_wall_right].setmesh(GEO_HOUSE_WALL);
-	otherhitboxes[hb_house2_wall_right].setproperties(Vector3(-65, -7, 17), Vector3(0, 90, 0), Vector3(6, 3, 5));
-	otherhitboxes[hb_house2_wall_right].Setuphitbox(Vector3(1, 2, 5.5), Vector3(-0.5, 2, 5.5));
-	otherhitboxes[hb_house2_roof].setmesh(GEO_HOUSE_WALL);
-	otherhitboxes[hb_house2_roof].setproperties(Vector3(-54, -3, 17), Vector3(90, 0, 0), Vector3(11, 6, 3));
-	otherhitboxes[hb_house2_roof].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 50));
+	objectlist[hb_house1_wall_back].setmesh(GEO_HOUSE_WALL);
+	objectlist[hb_house1_wall_back].setproperties(Vector3(-25,-7,23), Vector3(0, 180, 0), Vector3(11, 3, 5));
+	objectlist[hb_house1_wall_back].Setuphitbox(Vector3(5.5, 2, 1), Vector3(5.5, 2, 0.5));
+	objectlist[hb_house1_wall_right].setmesh(GEO_HOUSE_WALL);
+	objectlist[hb_house1_wall_right].setproperties(Vector3(-25, -7, 17), Vector3(0, 90, 0), Vector3(6, 3, 5));
+	objectlist[hb_house1_wall_right].Setuphitbox(Vector3(1, 2, 5.5), Vector3(-0.5, 2, 5.5));
+	objectlist[hb_house1_roof].setmesh(GEO_HOUSE_WALL);
+	objectlist[hb_house1_roof].setproperties(Vector3(-14, -3, 17), Vector3(90, 0, 0), Vector3(11, 6, 3));
+	objectlist[hb_house1_roof].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 50));
+	objectlist[hb_house2_wall_back].setmesh(GEO_HOUSE_WALL);
+	objectlist[hb_house2_wall_back].setproperties(Vector3(-65, -7, 23), Vector3(0, 180, 0), Vector3(11, 3, 5));
+	objectlist[hb_house2_wall_back].Setuphitbox(Vector3(5.5, 2, 1), Vector3(5.5, 2, 0.5));
+	objectlist[hb_house2_wall_right].setmesh(GEO_HOUSE_WALL);
+	objectlist[hb_house2_wall_right].setproperties(Vector3(-65, -7, 17), Vector3(0, 90, 0), Vector3(6, 3, 5));
+	objectlist[hb_house2_wall_right].Setuphitbox(Vector3(1, 2, 5.5), Vector3(-0.5, 2, 5.5));
+	objectlist[hb_house2_roof].setmesh(GEO_HOUSE_WALL);
+	objectlist[hb_house2_roof].setproperties(Vector3(-54, -3, 17), Vector3(90, 0, 0), Vector3(11, 6, 3));
+	objectlist[hb_house2_roof].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 50));
 	meshList[GEO_HOUSE_WALL_WINDOW] = MeshBuilder::GenerateOBJMTL("modelhousewallwindow", "OBJ//wallWindow.obj", "OBJ//wallWindow.mtl");
-	otherhitboxes[hb_house1_wall_front_window1].setmesh(GEO_HOUSE_WALL_WINDOW);
-	otherhitboxes[hb_house1_wall_front_window1].setproperties(Vector3(-14, -7, 17), Vector3(0, 0, 0), Vector3(5.5, 3, 3));
-	otherhitboxes[hb_house1_wall_front_window1].Setuphitbox(Vector3(2.75, 2, 1), Vector3(0, 2, -1));
-	otherhitboxes[hb_house1_wall_front_window2].setmesh(GEO_HOUSE_WALL_WINDOW);
-	otherhitboxes[hb_house1_wall_front_window2].setproperties(Vector3(-19.5, -7, 17), Vector3(0, 0, 0), Vector3(5.5, 3, 3));
-	otherhitboxes[hb_house1_wall_front_window2].Setuphitbox(Vector3(2.75, 2, 1), Vector3(0, 2, -1));
-	otherhitboxes[hb_house1_wall_right_window].setmesh(GEO_HOUSE_WALL_WINDOW);
-	otherhitboxes[hb_house1_wall_right_window].setproperties(Vector3(-14, -7, 23), Vector3(0, -90, 0), Vector3(6, 3, 3));
-	otherhitboxes[hb_house1_wall_right_window].Setuphitbox(Vector3(1, 2, 3), Vector3(1, 2, -3));
-	otherhitboxes[hb_house2_wall_front_window1].setmesh(GEO_HOUSE_WALL_WINDOW);
-	otherhitboxes[hb_house2_wall_front_window1].setproperties(Vector3(-54, -7, 17), Vector3(0, 0, 0), Vector3(5.5, 3, 3));
-	otherhitboxes[hb_house2_wall_front_window1].Setuphitbox(Vector3(2.75, 2, 1), Vector3(0, 2, -1));
-	otherhitboxes[hb_house2_wall_front_window2].setmesh(GEO_HOUSE_WALL_WINDOW);
-	otherhitboxes[hb_house2_wall_front_window2].setproperties(Vector3(-59.5, -7, 17), Vector3(0, 0, 0), Vector3(5.5, 3, 3));
-	otherhitboxes[hb_house2_wall_front_window2].Setuphitbox(Vector3(2.75, 2, 1), Vector3(0, 2, -1));
-	otherhitboxes[hb_house2_wall_right_window].setmesh(GEO_HOUSE_WALL_WINDOW);
-	otherhitboxes[hb_house2_wall_right_window].setproperties(Vector3(-54, -7, 23), Vector3(0, -90, 0), Vector3(6, 3, 3));
-	otherhitboxes[hb_house2_wall_right_window].Setuphitbox(Vector3(1, 2, 3), Vector3(1, 2, -3));
+	objectlist[hb_house1_wall_front_window1].setmesh(GEO_HOUSE_WALL_WINDOW);
+	objectlist[hb_house1_wall_front_window1].setproperties(Vector3(-14, -7, 17), Vector3(0, 0, 0), Vector3(5.5, 3, 3));
+	objectlist[hb_house1_wall_front_window1].Setuphitbox(Vector3(2.75, 2, 1), Vector3(0, 2, -1));
+	objectlist[hb_house1_wall_front_window2].setmesh(GEO_HOUSE_WALL_WINDOW);
+	objectlist[hb_house1_wall_front_window2].setproperties(Vector3(-19.5, -7, 17), Vector3(0, 0, 0), Vector3(5.5, 3, 3));
+	objectlist[hb_house1_wall_front_window2].Setuphitbox(Vector3(2.75, 2, 1), Vector3(0, 2, -1));
+	objectlist[hb_house1_wall_right_window].setmesh(GEO_HOUSE_WALL_WINDOW);
+	objectlist[hb_house1_wall_right_window].setproperties(Vector3(-14, -7, 23), Vector3(0, -90, 0), Vector3(6, 3, 3));
+	objectlist[hb_house1_wall_right_window].Setuphitbox(Vector3(1, 2, 3), Vector3(1, 2, -3));
+	objectlist[hb_house2_wall_front_window1].setmesh(GEO_HOUSE_WALL_WINDOW);
+	objectlist[hb_house2_wall_front_window1].setproperties(Vector3(-54, -7, 17), Vector3(0, 0, 0), Vector3(5.5, 3, 3));
+	objectlist[hb_house2_wall_front_window1].Setuphitbox(Vector3(2.75, 2, 1), Vector3(0, 2, -1));
+	objectlist[hb_house2_wall_front_window2].setmesh(GEO_HOUSE_WALL_WINDOW);
+	objectlist[hb_house2_wall_front_window2].setproperties(Vector3(-59.5, -7, 17), Vector3(0, 0, 0), Vector3(5.5, 3, 3));
+	objectlist[hb_house2_wall_front_window2].Setuphitbox(Vector3(2.75, 2, 1), Vector3(0, 2, -1));
+	objectlist[hb_house2_wall_right_window].setmesh(GEO_HOUSE_WALL_WINDOW);
+	objectlist[hb_house2_wall_right_window].setproperties(Vector3(-54, -7, 23), Vector3(0, -90, 0), Vector3(6, 3, 3));
+	objectlist[hb_house2_wall_right_window].Setuphitbox(Vector3(1, 2, 3), Vector3(1, 2, -3));
 	meshList[GEO_HOUSE_FLOOR] = MeshBuilder::GenerateOBJMTL("modelhousefloor", "OBJ//floorFull.obj", "OBJ//floorFull.mtl");
-	otherhitboxes[hb_house1_floor].setmesh(GEO_HOUSE_FLOOR);
-	otherhitboxes[hb_house1_floor].setproperties(Vector3(-14, -7, 17), Vector3(0, 0, 0), Vector3(11, 3, 6));
-	otherhitboxes[hb_house1_floor].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
-	otherhitboxes[hb_house2_floor].setmesh(GEO_HOUSE_FLOOR);
-	otherhitboxes[hb_house2_floor].setproperties(Vector3(-54, -7, 17), Vector3(0, 0, 0), Vector3(11, 3, 6));
-	otherhitboxes[hb_house2_floor].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_house1_floor].setmesh(GEO_HOUSE_FLOOR);
+	objectlist[hb_house1_floor].setproperties(Vector3(-14, -7, 17), Vector3(0, 0, 0), Vector3(11, 3, 6));
+	objectlist[hb_house1_floor].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
+	objectlist[hb_house2_floor].setmesh(GEO_HOUSE_FLOOR);
+	objectlist[hb_house2_floor].setproperties(Vector3(-54, -7, 17), Vector3(0, 0, 0), Vector3(11, 3, 6));
+	objectlist[hb_house2_floor].Setuphitbox(Vector3(0, 0, 0), Vector3(0, 0, 0));
 
 
 	//setup player's hitbox
@@ -712,35 +725,35 @@ void SceneUI::Init()
 	player.Setuphitbox(Vector3(1, 1.5, 1), Vector3(0, 0.5, 0));
 
 	//setup interaction boxes.
-	interactionhitboxes[i_light1].setproperties(objectlist[GEO_LAMPPOST].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_light1].setproperties(objectlist[hb_LAMPPOST].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_light1].Setuphitbox(Vector3(1.3, 2, 1.3), Vector3(0, 2, 0));
-	interactionhitboxes[i_light2].setproperties(otherhitboxes[hb_lamppost2].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_light2].setproperties(objectlist[hb_lamppost2].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_light2].Setuphitbox(Vector3(1.3, 2, 1.3), Vector3(0, 2, 0));
-	interactionhitboxes[i_light3].setproperties(otherhitboxes[hb_lamppost3].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_light3].setproperties(objectlist[hb_lamppost3].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_light3].Setuphitbox(Vector3(1.3, 2, 1.3), Vector3(0, 2, 0));
-	interactionhitboxes[i_light4].setproperties(otherhitboxes[hb_lamppost4].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_light4].setproperties(objectlist[hb_lamppost4].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_light4].Setuphitbox(Vector3(1.3, 2, 1.3), Vector3(0, 2, 0));
-	interactionhitboxes[i_shop].setproperties(objectlist[GEO_SHOP_STRUCTURE].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_shop].setproperties(objectlist[hb_SHOP_STRUCTURE].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_shop].Setuphitbox(Vector3(3, 2, 5), Vector3(-1, 2, 0));
-	interactionhitboxes[i_plant_tree].setproperties(objectlist[GEO_TREERING].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_plant_tree].setproperties(objectlist[hb_TREERING].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_plant_tree].Setuphitbox(Vector3(3, 2, 3), Vector3(0, 2, 0.5));
-	interactionhitboxes[i_home1_frontdoor].setproperties(objectlist[GEO_HOUSE1].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_home1_frontdoor].setproperties(objectlist[hb_HOUSE1].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_home1_frontdoor].Setuphitbox(Vector3(1, 2, 1), Vector3(0, 2, -2));
-	interactionhitboxes[i_home2_frontdoor].setproperties(objectlist[GEO_HOUSE2].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_home2_frontdoor].setproperties(objectlist[hb_HOUSE2].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_home2_frontdoor].Setuphitbox(Vector3(1, 2, 1), Vector3(0, 2, -4));
-	interactionhitboxes[i_laptop].setproperties(objectlist[GEO_LAPTOP].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_laptop].setproperties(objectlist[hb_LAPTOP].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_laptop].Setuphitbox(Vector3(1, 1, 1), Vector3(-0.5, 0, 0.5));
-	interactionhitboxes[i_home1_frontdoor_inside].setproperties(objectlist[GEO_HOUSE1].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_home1_frontdoor_inside].setproperties(objectlist[hb_HOUSE1].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_home1_frontdoor_inside].Setuphitbox(Vector3(1, 2, 1), Vector3(0, -5, -3.5));
-	interactionhitboxes[i_home3_back].setproperties(objectlist[GEO_HOUSE3].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_home3_back].setproperties(objectlist[hb_HOUSE3].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_home3_back].Setuphitbox(Vector3(1, 2, 1), Vector3(0, 2, 7.5));
-	interactionhitboxes[i_home3_garage].setproperties(objectlist[GEO_HOUSE3].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_home3_garage].setproperties(objectlist[hb_HOUSE3].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_home3_garage].Setuphitbox(Vector3(2, 2, 1), Vector3(-4, 2, -2));
-	interactionhitboxes[i_home3_frontdoor].setproperties(objectlist[GEO_HOUSE3].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_home3_frontdoor].setproperties(objectlist[hb_HOUSE3].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_home3_frontdoor].Setuphitbox(Vector3(1, 2, 1), Vector3(0, 2, -6));
-	interactionhitboxes[i_home4_frontdoor].setproperties(objectlist[GEO_HOUSE4].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_home4_frontdoor].setproperties(objectlist[hb_HOUSE4].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_home4_frontdoor].Setuphitbox(Vector3(1, 2, 1), Vector3(-2.5, 2, -5));
-	interactionhitboxes[i_home4_backdoor].setproperties(objectlist[GEO_HOUSE4].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	interactionhitboxes[i_home4_backdoor].setproperties(objectlist[hb_HOUSE4].getposition(), Vector3(0, 0, 0), Vector3(1, 1, 1));
 	interactionhitboxes[i_home4_backdoor].Setuphitbox(Vector3(1, 2, 1), Vector3(2.5, 2, 5));
 
 
@@ -748,14 +761,14 @@ void SceneUI::Init()
 	interactionhitboxes[i_exit].Setuphitbox(Vector3(1, 2, 1), Vector3(0, 2, 0));
 
 	//other hitboxes
-	otherhitboxes[hb_border_front].setproperties(Vector3(0, 0, -27), Vector3(0, 0, 0), Vector3(1, 1, 1));
-	otherhitboxes[hb_border_front].Setuphitbox(Vector3(27, 5, 1), Vector3(0, 5, 0));
-	otherhitboxes[hb_border_back].setproperties(Vector3(0, 0, 27), Vector3(0, 0, 0), Vector3(1, 1, 1));
-	otherhitboxes[hb_border_back].Setuphitbox(Vector3(27, 5, 1), Vector3(0, 5, 0));
-	otherhitboxes[hb_border_left].setproperties(Vector3(-27, 0, 0), Vector3(0, 0, 0), Vector3(1, 1, 1));
-	otherhitboxes[hb_border_left].Setuphitbox(Vector3(1, 5, 27), Vector3(0, 5, 0));
-	otherhitboxes[hb_border_right].setproperties(Vector3(27, 0, 0), Vector3(0, 0, 0), Vector3(1, 1, 1));
-	otherhitboxes[hb_border_right].Setuphitbox(Vector3(1, 5, 27), Vector3(0, 5, 0));
+	objectlist[hb_border_front].setproperties(Vector3(0, 0, -27), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	objectlist[hb_border_front].Setuphitbox(Vector3(27, 5, 1), Vector3(0, 5, 0));
+	objectlist[hb_border_back].setproperties(Vector3(0, 0, 27), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	objectlist[hb_border_back].Setuphitbox(Vector3(27, 5, 1), Vector3(0, 5, 0));
+	objectlist[hb_border_left].setproperties(Vector3(-27, 0, 0), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	objectlist[hb_border_left].Setuphitbox(Vector3(1, 5, 27), Vector3(0, 5, 0));
+	objectlist[hb_border_right].setproperties(Vector3(27, 0, 0), Vector3(0, 0, 0), Vector3(1, 1, 1));
+	objectlist[hb_border_right].Setuphitbox(Vector3(1, 5, 27), Vector3(0, 5, 0));
 
 	Mtx44 projection;
 	projection.SetToPerspective(45.f, 4.f / 3.f, 0.1f, 10000.f);
@@ -814,7 +827,6 @@ bool SceneUI::Update(double dt)
 		if (posX > imagepos.x - imagedimensions.x * 0.5 && posX < imagepos.x + imagedimensions.x * 0.5 && posY > imagepos.y - imagedimensions.y * 0.5 && posY < imagepos.y + imagedimensions.y * 0.5)
 		{
 			std::cout << "Hit!" << std::endl;
-			//trigger user action or function
 		}
 		else
 		{
@@ -826,20 +838,14 @@ bool SceneUI::Update(double dt)
 		bLButtonState = false;
 		std::cout << "LBUTTON UP" << std::endl;
 	}
-	static bool bRButtonState = false;
-	if (!bRButtonState && Application::IsMousePressed(1))
-	{
-		bRButtonState = true;
-		std::cout << "RBUTTON DOWN" << std::endl;
-	}
-	else if (bRButtonState && !Application::IsMousePressed(1))
-	{
-		bRButtonState = false;
-		std::cout << "RBUTTON UP" << std::endl;
-	}
+	static bool RightClick = false;
+	if (!RightClick && Application::IsMousePressed(1))
+		RightClick = true;
+	else if (RightClick && !Application::IsMousePressed(1))
+		RightClick = false;
 
 
-	bool quit = false;
+	static bool quit = false;
 	switch (gamestate)
 	{
 	case gs_mainmenu:
@@ -952,6 +958,8 @@ void SceneUI::UpdateENV(double dt)
 			GetCursorPos(mousepos); //get mouse position
 			if (mousepos->x > rect.left && mousepos->x < rect.right && mousepos->y > rect.top && mousepos->y < rect.bottom && InWindow == true)
 			{
+				static Hitbox tempplayerhitbox;
+				tempplayerhitbox = player.getobjecthitbox();
 				//mouse inside window
 				if (!mousehidden)
 				{
@@ -965,23 +973,14 @@ void SceneUI::UpdateENV(double dt)
 				//check for player collision
 				if (checkcollision)
 				{
-					for (unsigned obj = 9; obj < NUM_GEOMETRY; obj++) //check hitboxes in objectlist
-					{
-						if (!objectlist[obj].getissetup())
-							continue;
-						else if (objectlist[obj].getobjecthitbox().Checkforcollision(player.getobjecthitbox(), x, y, z)) //if the player's hitbox is smaller than the object's hitbox
-							camera.gotoprevpos(x,y,z);
-						else if (player.getobjecthitbox().Checkforcollision(objectlist[obj].getobjecthitbox(), x, y, z))
-							camera.gotoprevpos(x, y, z);
-					}
 					for (unsigned idx = 0; idx < hb_count; idx++) //check against other hitboxes
 					{
-						if (!otherhitboxes[idx].getissetup())
+						if (!objectlist[idx].getissetup())
 							continue;
-						else if (otherhitboxes[idx].getobjecthitbox().Checkforcollision(player.getobjecthitbox(), x, y, z)) //if the player's hitbox is smaller than the object's hitbox
-							camera.gotoprevpos(x, y, z);
-						else if (player.getobjecthitbox().Checkforcollision(otherhitboxes[idx].getobjecthitbox(), x, y, z))
-							camera.gotoprevpos(x, y, z);
+						else if (objectlist[idx].getobjecthitbox().Checkforcollision(player.getobjecthitbox())) //if the player's hitbox is smaller than the object's hitbox
+							camera.gotoprevpos();
+						else if (player.getobjecthitbox().Checkforcollision(objectlist[idx].getobjecthitbox()))
+							camera.gotoprevpos();
 					}
 				}
 			} //else do nothing with camera
@@ -992,9 +991,9 @@ void SceneUI::UpdateENV(double dt)
 		{
 			if (!interactionhitboxes[idx].getissetup())
 				continue;
-			else if (interactionhitboxes[idx].getobjecthitbox().Checkforcollision(player.getobjecthitbox(),x,y,z))
+			else if (interactionhitboxes[idx].getobjecthitbox().Checkforcollision(player.getobjecthitbox()))
 				interact = idx;
-			else if (player.getobjecthitbox().Checkforcollision(interactionhitboxes[idx].getobjecthitbox(),x,y,z))
+			else if (player.getobjecthitbox().Checkforcollision(interactionhitboxes[idx].getobjecthitbox()))
 				interact = idx;
 		}
 
@@ -1067,25 +1066,25 @@ void SceneUI::UpdateENV(double dt)
 				//check fist collisions
 				for (unsigned idx = hb_tree1; idx <= hb_newtree5; idx++)
 				{
-					if (otherhitboxes[idx].getobjecthitbox().Checkforcollision(fist1))
+					if (objectlist[idx].getobjecthitbox().Checkforcollision(fist1))
 					{
 						playerwood += playerpunchpower;
 						punchcooldown = 0;
 						break;
 					}
-					else if (fist1.Checkforcollision(otherhitboxes[idx].getobjecthitbox()))
+					else if (fist1.Checkforcollision(objectlist[idx].getobjecthitbox()))
 					{
 						playerwood += playerpunchpower;
 						punchcooldown = 0;
 						break;
 					}
-					else if (otherhitboxes[idx].getobjecthitbox().Checkforcollision(fist2))
+					else if (objectlist[idx].getobjecthitbox().Checkforcollision(fist2))
 					{
 						playerwood += playerpunchpower;
 						punchcooldown = 0;
 						break;
 					}
-					else if (fist2.Checkforcollision(otherhitboxes[idx].getobjecthitbox()))
+					else if (fist2.Checkforcollision(objectlist[idx].getobjecthitbox()))
 					{
 						playerwood += playerpunchpower;
 						punchcooldown = 0;
@@ -1337,8 +1336,8 @@ void SceneUI::UpdateENV(double dt)
 			if (treeplanted)
 			{
 				//update tree 5
-				otherhitboxes[hb_newtree5].setproperties(Vector3(20, 0, -23), Vector3(0, 0, 0), Vector3(1.667f * treegrowthstage, 1.1667f * treegrowthstage, 1.667f * treegrowthstage));
-				otherhitboxes[hb_newtree5].Setuphitbox(Vector3(1 * treeplanted, 6 * treeplanted, 1 * treeplanted), Vector3(0, 4 * treeplanted, 0));
+				objectlist[hb_newtree5].setproperties(Vector3(20, 0, -23), Vector3(0, 0, 0), Vector3(1.667f * treegrowthstage, 1.1667f * treegrowthstage, 1.667f * treegrowthstage));
+				objectlist[hb_newtree5].Setuphitbox(Vector3(1 * treeplanted, 6 * treeplanted, 1 * treeplanted), Vector3(0, 4 * treeplanted, 0));
 			}
 			ebuttonstate = true;
 		}
@@ -1354,12 +1353,12 @@ void SceneUI::UpdateENV(double dt)
 			camera.Settarget(Vector3(1, -20, 0));
 			camerapos = camera.position;
 			playerscore = 0;
-			otherhitboxes[hb_ROCK1].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
-			otherhitboxes[hb_ROCK2].Setposition(Vector3(10, -12.5, -2 + (float)(rand() % 16) * 0.25));
-			otherhitboxes[hb_ROCK3].Setposition(Vector3(10, -10, -2 + (float)(rand() % 16) * 0.25));
-			otherhitboxes[hb_ROCK4].Setposition(Vector3(10, -7.5, -2 + (float)(rand() % 16) * 0.25));
+			objectlist[hb_ROCK1].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
+			objectlist[hb_ROCK2].Setposition(Vector3(10, -12.5, -2 + (float)(rand() % 16) * 0.25));
+			objectlist[hb_ROCK3].Setposition(Vector3(10, -10, -2 + (float)(rand() % 16) * 0.25));
+			objectlist[hb_ROCK4].Setposition(Vector3(10, -7.5, -2 + (float)(rand() % 16) * 0.25));
 			gamemovementspeed = 0.5;
-			otherhitboxes[hb_BOAT1].Setposition(Vector3(10, -22.5, 0));
+			objectlist[hb_BOAT1].Setposition(Vector3(10, -22.5, 0));
 		}
 		else if (interact == i_home1_frontdoor_inside && !ebuttonstate && GetAsyncKeyState(0x45))
 		{
@@ -1449,55 +1448,55 @@ void SceneUI::UpdateENV(double dt)
 		{
 			if (GetAsyncKeyState(0x41))
 			{
-				otherhitboxes[hb_BOAT1].moveposition(Vector3(0, 0, -5 * dt));
-				if (otherhitboxes[hb_BOAT1].getposition().z < -2)
+				objectlist[hb_BOAT1].moveposition(Vector3(0, 0, -5 * dt));
+				if (objectlist[hb_BOAT1].getposition().z < -2)
 				{
-					otherhitboxes[hb_BOAT1].Setposition(Vector3(otherhitboxes[hb_BOAT1].getposition().x, otherhitboxes[hb_BOAT1].getposition().y, -2));
+					objectlist[hb_BOAT1].Setposition(Vector3(objectlist[hb_BOAT1].getposition().x, objectlist[hb_BOAT1].getposition().y, -2));
 				}
 				inshop = false;
 			}
 			if (GetAsyncKeyState(0x44))
 			{
-				otherhitboxes[hb_BOAT1].moveposition(Vector3(0, 0, 5 * dt));
-				if (otherhitboxes[hb_BOAT1].getposition().z > 2)
+				objectlist[hb_BOAT1].moveposition(Vector3(0, 0, 5 * dt));
+				if (objectlist[hb_BOAT1].getposition().z > 2)
 				{
-					otherhitboxes[hb_BOAT1].Setposition(Vector3(otherhitboxes[hb_BOAT1].getposition().x, otherhitboxes[hb_BOAT1].getposition().y, 2));
+					objectlist[hb_BOAT1].Setposition(Vector3(objectlist[hb_BOAT1].getposition().x, objectlist[hb_BOAT1].getposition().y, 2));
 				}
 				inshop = false;
 			}
 			if (GetAsyncKeyState(0x57))
 			{
-				otherhitboxes[hb_BOAT1].moveposition(Vector3(0, 5 * dt, 0));
-				if (otherhitboxes[hb_BOAT1].getposition().y > -16.5)
+				objectlist[hb_BOAT1].moveposition(Vector3(0, 5 * dt, 0));
+				if (objectlist[hb_BOAT1].getposition().y > -16.5)
 				{
-					otherhitboxes[hb_BOAT1].Setposition(Vector3(otherhitboxes[hb_BOAT1].getposition().x, -16.5, otherhitboxes[hb_BOAT1].getposition().z));
+					objectlist[hb_BOAT1].Setposition(Vector3(objectlist[hb_BOAT1].getposition().x, -16.5, objectlist[hb_BOAT1].getposition().z));
 				}
 				inshop = false;
 			}
 			if (GetAsyncKeyState(0x53))
 			{
-				otherhitboxes[hb_BOAT1].moveposition(Vector3(0, -5 * dt, 0));
-				if (otherhitboxes[hb_BOAT1].getposition().y < -24)
+				objectlist[hb_BOAT1].moveposition(Vector3(0, -5 * dt, 0));
+				if (objectlist[hb_BOAT1].getposition().y < -24)
 				{
-					otherhitboxes[hb_BOAT1].Setposition(Vector3(otherhitboxes[hb_BOAT1].getposition().x, -24, otherhitboxes[hb_BOAT1].getposition().z));
+					objectlist[hb_BOAT1].Setposition(Vector3(objectlist[hb_BOAT1].getposition().x, -24, objectlist[hb_BOAT1].getposition().z));
 				}
 				inshop = false;
 			}
-			otherhitboxes[hb_ROCK1].moveposition(Vector3(0, -gamemovementspeed * dt, 0));
-			otherhitboxes[hb_ROCK2].moveposition(Vector3(0, -gamemovementspeed * dt, 0));
-			otherhitboxes[hb_ROCK3].moveposition(Vector3(0, -gamemovementspeed * dt, 0));
-			otherhitboxes[hb_ROCK4].moveposition(Vector3(0, -gamemovementspeed * dt, 0));
+			objectlist[hb_ROCK1].moveposition(Vector3(0, -gamemovementspeed * dt, 0));
+			objectlist[hb_ROCK2].moveposition(Vector3(0, -gamemovementspeed * dt, 0));
+			objectlist[hb_ROCK3].moveposition(Vector3(0, -gamemovementspeed * dt, 0));
+			objectlist[hb_ROCK4].moveposition(Vector3(0, -gamemovementspeed * dt, 0));
 			gamemovementspeed += 0.1 * dt;;
 			playerscore += gamemovementspeed * 0.25;
 
 			//check collisions with boat
 			for (unsigned idx = hb_ROCK1; idx <= hb_ROCK4; idx++)
 			{
-				if (!otherhitboxes[idx].getissetup())
+				if (!objectlist[idx].getissetup())
 					continue;
-				else if (otherhitboxes[idx].getobjecthitbox().Checkforcollision(otherhitboxes[hb_BOAT1].getobjecthitbox(), x, y, z))
+				else if (objectlist[idx].getobjecthitbox().Checkforcollision(objectlist[hb_BOAT1].getobjecthitbox()))
 					boatalive = false;
-				else if (otherhitboxes[hb_BOAT1].getobjecthitbox().Checkforcollision(otherhitboxes[idx].getobjecthitbox(), x, y, z))
+				else if (objectlist[hb_BOAT1].getobjecthitbox().Checkforcollision(objectlist[idx].getobjecthitbox()))
 					boatalive = false;
 			}
 			if (boatalive == false)
@@ -1506,21 +1505,21 @@ void SceneUI::UpdateENV(double dt)
 			}
 
 			//move the blocks back up
-			if (otherhitboxes[hb_ROCK1].getposition().y < -24)
+			if (objectlist[hb_ROCK1].getposition().y < -24)
 			{
-				otherhitboxes[hb_ROCK1].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
+				objectlist[hb_ROCK1].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
 			}
-			if (otherhitboxes[hb_ROCK2].getposition().y < -24)
+			if (objectlist[hb_ROCK2].getposition().y < -24)
 			{
-				otherhitboxes[hb_ROCK2].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
+				objectlist[hb_ROCK2].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
 			}
-			if (otherhitboxes[hb_ROCK3].getposition().y < -24)
+			if (objectlist[hb_ROCK3].getposition().y < -24)
 			{
-				otherhitboxes[hb_ROCK3].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
+				objectlist[hb_ROCK3].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
 			}
-			if (otherhitboxes[hb_ROCK4].getposition().y < -24)
+			if (objectlist[hb_ROCK4].getposition().y < -24)
 			{
-				otherhitboxes[hb_ROCK4].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
+				objectlist[hb_ROCK4].Setposition(Vector3(10, -15, -2 + (float)(rand() % 16) * 0.25));
 			}
 		}
 
@@ -1903,9 +1902,9 @@ void SceneUI::RenderENV()
 	}
 	
 	//render objects
-	for (unsigned idx = 9; idx < GEO_HITBOX; idx++) //render all objects, starts from 9 so that it renders after the skybox
+	for (unsigned idx = 0; idx < hb_border_front; idx++) //for objects
 	{
-		if (!objectlist[idx].getissetup())
+		if (!objectlist[idx].getissetup() || objectlist[idx].getmodel() == 0 || idx == hb_newtree5)
 			continue;
 		modelStack.PushMatrix();
 		modelStack.Translate(objectlist[idx].getposition().x, objectlist[idx].getposition().y, objectlist[idx].getposition().z);
@@ -1913,32 +1912,19 @@ void SceneUI::RenderENV()
 		modelStack.Rotate(objectlist[idx].getrotation().y, 0, 1, 0);
 		modelStack.Rotate(objectlist[idx].getrotation().z, 0, 0, 1);
 		modelStack.Scale(objectlist[idx].getscale().x, objectlist[idx].getscale().y, objectlist[idx].getscale().z);
-		RenderMesh(meshList[idx], true);
-		modelStack.PopMatrix();
-	}
-	for (unsigned idx = 0; idx < hb_border_front; idx++) //for objects
-	{
-		if (!otherhitboxes[idx].getissetup() || otherhitboxes[idx].getmodel() == 0 || idx == hb_newtree5)
-			continue;
-		modelStack.PushMatrix();
-		modelStack.Translate(otherhitboxes[idx].getposition().x, otherhitboxes[idx].getposition().y, otherhitboxes[idx].getposition().z);
-		modelStack.Rotate(otherhitboxes[idx].getrotation().x, 1, 0, 0);
-		modelStack.Rotate(otherhitboxes[idx].getrotation().y, 0, 1, 0);
-		modelStack.Rotate(otherhitboxes[idx].getrotation().z, 0, 0, 1);
-		modelStack.Scale(otherhitboxes[idx].getscale().x, otherhitboxes[idx].getscale().y, otherhitboxes[idx].getscale().z);
-		RenderMesh(meshList[otherhitboxes[idx].getmodel()], true);
+		RenderMesh(meshList[objectlist[idx].getmodel()], true);
 		modelStack.PopMatrix();
 	}
 
 	if (treeplanted)
 	{
 		modelStack.PushMatrix();
-		modelStack.Translate(otherhitboxes[hb_newtree5].getposition().x, otherhitboxes[hb_newtree5].getposition().y, otherhitboxes[hb_newtree5].getposition().z);
-		modelStack.Rotate(otherhitboxes[hb_newtree5].getrotation().x, 1, 0, 0);
-		modelStack.Rotate(otherhitboxes[hb_newtree5].getrotation().y, 0, 1, 0);
-		modelStack.Rotate(otherhitboxes[hb_newtree5].getrotation().z, 0, 0, 1);
-		modelStack.Scale(otherhitboxes[hb_newtree5].getscale().x, otherhitboxes[hb_newtree5].getscale().y, otherhitboxes[hb_newtree5].getscale().z);
-		RenderMesh(meshList[otherhitboxes[hb_newtree5].getmodel()], true);
+		modelStack.Translate(objectlist[hb_newtree5].getposition().x, objectlist[hb_newtree5].getposition().y, objectlist[hb_newtree5].getposition().z);
+		modelStack.Rotate(objectlist[hb_newtree5].getrotation().x, 1, 0, 0);
+		modelStack.Rotate(objectlist[hb_newtree5].getrotation().y, 0, 1, 0);
+		modelStack.Rotate(objectlist[hb_newtree5].getrotation().z, 0, 0, 1);
+		modelStack.Scale(objectlist[hb_newtree5].getscale().x, objectlist[hb_newtree5].getscale().y, objectlist[hb_newtree5].getscale().z);
+		RenderMesh(meshList[objectlist[hb_newtree5].getmodel()], true);
 		modelStack.PopMatrix();
 	}
 
@@ -2244,11 +2230,11 @@ void SceneUI::RenderENV()
 		}
 		for (unsigned idx = 0; idx < hb_count; idx++) //render other hitboxes
 		{
-			if (!otherhitboxes[idx].getissetup())
+			if (!objectlist[idx].getissetup())
 				continue;
 			modelStack.PushMatrix();
-			modelStack.Translate(otherhitboxes[idx].getposition().x + otherhitboxes[idx].getobjecthitbox().gethboffset().x, otherhitboxes[idx].getposition().y + otherhitboxes[idx].getobjecthitbox().gethboffset().y, otherhitboxes[idx].getposition().z + otherhitboxes[idx].getobjecthitbox().gethboffset().z);
-			modelStack.Scale(otherhitboxes[idx].getobjecthitbox().gethitboxdimensions().x * 2, otherhitboxes[idx].getobjecthitbox().gethitboxdimensions().y * 2, otherhitboxes[idx].getobjecthitbox().gethitboxdimensions().z * 2);
+			modelStack.Translate(objectlist[idx].getposition().x + objectlist[idx].getobjecthitbox().gethboffset().x, objectlist[idx].getposition().y + objectlist[idx].getobjecthitbox().gethboffset().y, objectlist[idx].getposition().z + objectlist[idx].getobjecthitbox().gethboffset().z);
+			modelStack.Scale(objectlist[idx].getobjecthitbox().gethitboxdimensions().x * 2, objectlist[idx].getobjecthitbox().gethitboxdimensions().y * 2, objectlist[idx].getobjecthitbox().gethitboxdimensions().z * 2);
 			RenderMesh(meshList[GEO_HITBOX], false);
 			modelStack.PopMatrix();
 		}

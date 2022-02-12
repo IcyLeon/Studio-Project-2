@@ -7,6 +7,10 @@
 class Application
 {
 public:
+	enum Gamestates
+	{
+		gs_,
+	};
 	Application();
 	~Application();
 	void Init();

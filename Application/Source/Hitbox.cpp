@@ -64,7 +64,7 @@ void Hitbox::updatehitboxpos(Vector3 newposition)
 	sethitboxcenterdimensions(hitboxdimension, newposition, hboffset);
 }
 
-bool Hitbox::Checkforcollision(Hitbox otherhitbox, bool* x, bool* y, bool* z)
+bool Hitbox::Checkforcollision(Hitbox otherhitbox, Hitbox prevHitbox, bool* x, bool* y, bool* z)
 {
 	*x = false; *y = false; *z = false;
 	Vector3 distancebetweenhitboxes = otherhitbox.gethitboxcenterposition() - hitboxcenterposition;
@@ -74,34 +74,34 @@ bool Hitbox::Checkforcollision(Hitbox otherhitbox, bool* x, bool* y, bool* z)
 	{
 		//since the hitbox does not rotate, checking against the axis is enough
 		if ((xmin <= otherhitbox.xmin && xmax >= otherhitbox.xmin) || (xmin <= otherhitbox.xmax && xmax >= otherhitbox.xmax))
-		{
 			collide = true;
-			*x = true;
-		}
 		else
-		{
 			collide = false;
-			*x = false;
-		}
 		if (collide == true && ((ymin <= otherhitbox.ymin && ymax >= otherhitbox.ymin) || (ymin <= otherhitbox.ymax && ymax >= otherhitbox.ymax)))
-		{
 			collide = true;
-			*y = true;
-		}
 		else
-		{
 			collide = false;
-			*y = false;
-		}
 		if (collide == true && ((zmin <= otherhitbox.zmin && zmax >= otherhitbox.zmin) || (zmin <= otherhitbox.zmax && zmax >= otherhitbox.zmax)))
-		{
 			collide = true;
-			*z = true;
-		}
 		else
-		{
 			collide = false;
-			*z = false;
+
+		if (collide == true)
+		{
+			if (prevHitbox.gethitboxcenterposition().x >= otherhitbox.xmin && prevHitbox.gethitboxcenterposition().x <= otherhitbox.xmax)
+				*x = true;
+			else
+				*x = false;
+			if (prevHitbox.gethitboxcenterposition().y >= otherhitbox.ymin && prevHitbox.gethitboxcenterposition().y <= otherhitbox.ymax)
+				*y = true;
+			else
+				*y = false;
+			if (prevHitbox.gethitboxcenterposition().z >= otherhitbox.zmin && prevHitbox.gethitboxcenterposition().z <= otherhitbox.zmax)
+				*z = true;
+			else
+				*z = false;
+
+			std::cout << *x << *y << *z << "\n";
 		}
 		return collide;
 	}

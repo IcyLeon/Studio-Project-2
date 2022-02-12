@@ -925,18 +925,18 @@ void SceneAssignment2::UpdateENV(double dt)
 					{
 						if (!objectlist[obj].getissetup())
 							continue;
-						else if (objectlist[obj].getobjecthitbox().Checkforcollision(player.getobjecthitbox(), x, y, z)) //if the player's hitbox is smaller than the object's hitbox
+						else if (objectlist[obj].getobjecthitbox().Checkforcollision(player.getobjecthitbox())) //if the player's hitbox is smaller than the object's hitbox
 							camera.gotoprevpos(x,y,z);
-						else if (player.getobjecthitbox().Checkforcollision(objectlist[obj].getobjecthitbox(), x, y, z))
+						else if (player.getobjecthitbox().Checkforcollision(objectlist[obj].getobjecthitbox()))
 							camera.gotoprevpos(x, y, z);
 					}
 					for (unsigned idx = 0; idx < hb_count; idx++) //check against other hitboxes
 					{
 						if (!otherhitboxes[idx].getissetup())
 							continue;
-						else if (otherhitboxes[idx].getobjecthitbox().Checkforcollision(player.getobjecthitbox(), x, y, z)) //if the player's hitbox is smaller than the object's hitbox
+						else if (otherhitboxes[idx].getobjecthitbox().Checkforcollision(player.getobjecthitbox())) //if the player's hitbox is smaller than the object's hitbox
 							camera.gotoprevpos(x, y, z);
-						else if (player.getobjecthitbox().Checkforcollision(otherhitboxes[idx].getobjecthitbox(), x, y, z))
+						else if (player.getobjecthitbox().Checkforcollision(otherhitboxes[idx].getobjecthitbox()))
 							camera.gotoprevpos(x, y, z);
 					}
 				}
@@ -948,9 +948,9 @@ void SceneAssignment2::UpdateENV(double dt)
 		{
 			if (!interactionhitboxes[idx].getissetup())
 				continue;
-			else if (interactionhitboxes[idx].getobjecthitbox().Checkforcollision(player.getobjecthitbox(),x,y,z))
+			else if (interactionhitboxes[idx].getobjecthitbox().Checkforcollision(player.getobjecthitbox()))
 				interact = idx;
-			else if (player.getobjecthitbox().Checkforcollision(interactionhitboxes[idx].getobjecthitbox(),x,y,z))
+			else if (player.getobjecthitbox().Checkforcollision(interactionhitboxes[idx].getobjecthitbox()))
 				interact = idx;
 		}
 
@@ -1451,9 +1451,9 @@ void SceneAssignment2::UpdateENV(double dt)
 			{
 				if (!otherhitboxes[idx].getissetup())
 					continue;
-				else if (otherhitboxes[idx].getobjecthitbox().Checkforcollision(otherhitboxes[hb_BOAT1].getobjecthitbox(), x, y, z))
+				else if (otherhitboxes[idx].getobjecthitbox().Checkforcollision(otherhitboxes[hb_BOAT1].getobjecthitbox()))
 					boatalive = false;
-				else if (otherhitboxes[hb_BOAT1].getobjecthitbox().Checkforcollision(otherhitboxes[idx].getobjecthitbox(), x, y, z))
+				else if (otherhitboxes[hb_BOAT1].getobjecthitbox().Checkforcollision(otherhitboxes[idx].getobjecthitbox()))
 					boatalive = false;
 			}
 			if (boatalive == false)

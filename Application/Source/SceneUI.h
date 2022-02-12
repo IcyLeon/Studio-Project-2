@@ -59,7 +59,6 @@ class SceneUI : public Scene
 		GEO_HOMELAMP,
 		GEO_TREERING,
 
-		//geometries without hitboxes
 		GEO_HITBOX,
 		GEO_HITBOX2,
 		GEO_CONCRETE_PAVEMENT,
@@ -79,7 +78,6 @@ class SceneUI : public Scene
 		GEO_WATER,
 		GEO_TREE,
 		
-
 		//text
 		GEO_TEXT_CALIBRI,
 		GEO_TEXT_COMICSANS,
@@ -216,13 +214,35 @@ class SceneUI : public Scene
 		gs_credits,
 		gs_states
 	};
-	enum EXTRA_OBJECTORHITBOXES //for extra hitboxes
+	enum GAME_OBJECTS //game objects
 	{
 		//objects
 		hb_crate1,
 		hb_crate2,
 		hb_crate3,
 		hb_barrel1,
+
+		//houses
+		hb_HOUSE1, //player's house
+		hb_HOUSE2,
+		hb_HOUSE3,
+		hb_HOUSE4,
+		hb_SHOP_STRUCTURE,
+		hb_SHOP_ROOF,
+
+		//walls
+		hb_OUTERWALLS,
+
+		//others
+		hb_BARREL,
+		hb_CRATE,
+		hb_LAMPPOST,
+		hb_BED,
+		hb_DESK,
+		hb_LAPTOP,
+		hb_HOMELAMP,
+		hb_TREERING,
+
 		//house 1
 		hb_house1_door,
 		hb_house1_wall_back,
@@ -319,8 +339,7 @@ private:
 	unsigned interact;
 	unsigned count;
 	Mesh* meshList[NUM_GEOMETRY];
-	Objects objectlist[NUM_GEOMETRY];
-	Objects otherhitboxes[hb_count];
+	Objects objectlist[hb_count];
 	Objects interactionhitboxes[i_count];
 	Objects player;
 	Hitbox fist1, fist2;

@@ -137,6 +137,14 @@ void Camera4::gotoprevpos(bool* x, bool* y, bool* z)
 	target = position + view;
 }
 
+void Camera4::gotoprevpos()
+{
+	view = target - position;
+	position = prevPosition;
+	target = position + view;
+}
+
+
 void Camera4::Update(double dt)
 {
 	static const float CAMERA_SPEED = 60.f;

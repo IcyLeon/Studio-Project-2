@@ -1,0 +1,658 @@
+﻿  Hitbox.cpp
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Hitbox.cpp(47,95): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Objects.cpp
+  Application.cpp
+  Camera.cpp
+  Camera3.cpp
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera3.cpp(27,54): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera3.cpp(28,54): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera3.cpp(30,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera3.cpp(31,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera3.cpp(169,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera3.cpp(175,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Camera4.cpp
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera4.cpp(28,54): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera4.cpp(29,54): warning C4244: '=': conversion from 'double' to 'LONG', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera4.cpp(33,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera4.cpp(34,32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera4.cpp(198,36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\Camera4.cpp(204,35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  LoadOBJ.cpp
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\LoadOBJ.cpp(43,48): warning C4474: 'sscanf_s' : too many arguments passed for format string
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\LoadOBJ.cpp(43,48): message : placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\LoadOBJ.cpp(280,48): warning C4474: 'sscanf_s' : too many arguments passed for format string
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\LoadOBJ.cpp(280,48): message : placeholders and their parameters expect 2 variadic arguments, but 3 were provided
+  LoadTGA.cpp
+  main.cpp
+  Mesh.cpp
+  MeshBuilder.cpp
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\MeshBuilder.cpp(76,114): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\MeshBuilder.cpp(76,103): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\MeshBuilder.cpp(77,107): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\MeshBuilder.cpp(79,104): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\MeshBuilder.cpp(282,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\MeshBuilder.cpp(319,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\MeshBuilder.cpp(361,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  SceneAssignment.cpp
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(106,118): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(107,84): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(108,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(112,127): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(113,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(114,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(118,123): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(119,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(120,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(124,121): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(125,95): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(126,95): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(130,136): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(131,102): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(132,102): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(142,145): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(143,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(144,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(148,117): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(149,84): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(150,86): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(329,58): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(347,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(357,52): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(358,57): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(363,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(366,46): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(379,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(381,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(382,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(392,29): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(394,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(400,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(401,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(409,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(416,29): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(418,27): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(423,27): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(424,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(425,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(427,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(428,33): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(458,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(459,47): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(481,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(482,47): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(494,29): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(498,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(499,47): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(508,28): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(518,28): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(528,26): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(534,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(544,28): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(554,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(562,33): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(570,33): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(580,26): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(585,28): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(605,34): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(615,52): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(616,57): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(621,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(624,46): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(634,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(635,27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(643,27): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(644,27): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(656,68): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(657,74): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(662,32): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(665,45): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(676,68): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(677,74): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(682,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(684,45): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(694,72): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(695,78): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(700,32): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(702,45): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(712,73): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(713,77): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(718,32): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(720,45): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(792,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(797,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(806,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(815,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(822,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(828,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(833,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(842,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(851,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(858,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(865,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(869,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(870,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(875,37): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(886,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(890,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(891,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(896,37): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(905,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(906,90): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(907,90): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(916,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(917,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(923,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(924,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(944,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(950,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(951,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(969,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(971,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(973,109): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(974,109): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(981,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(991,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(992,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(993,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1005,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1006,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1007,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1019,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1020,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1021,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1033,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1034,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1035,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1043,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1044,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1046,108): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1047,108): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1056,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1057,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1069,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1075,103): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1076,103): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1085,103): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment.cpp(1086,103): warning C4305: 'argument': truncation from 'double' to 'float'
+  SceneAssignment2.cpp
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(268,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(295,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(445,118): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(446,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(447,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(451,127): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(452,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(453,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(457,123): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(458,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(459,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(463,121): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(464,95): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(465,95): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(475,145): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(476,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(477,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(496,54): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(496,77): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(498,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(498,79): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(505,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(521,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(524,64): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(534,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(537,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(565,54): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(565,76): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(568,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(568,79): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(570,62): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(573,64): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(576,62): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(579,72): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(589,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(599,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(600,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(602,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(603,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(605,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(606,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(608,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(609,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(658,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(661,67): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(716,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(718,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(720,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(722,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(770,73): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(770,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(834,76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(834,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(888,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(959,87): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(959,126): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(960,54): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(961,87): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(961,126): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(962,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(972,29): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(974,29): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(984,30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(992,30): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1004,30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1012,30): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1070,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1084,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1098,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1112,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1297,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1297,71): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1297,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1297,117): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1313,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1314,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1315,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1316,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1408,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1417,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1426,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1435,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1442,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1443,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1444,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1445,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1446,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1447,43): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1467,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1471,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1475,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1479,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1581,22): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1588,32): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1589,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1594,24): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1848,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1854,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1903,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1909,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1915,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1922,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1933,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1939,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1945,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1951,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1957,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1968,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1974,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1980,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1986,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1992,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(1998,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2004,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2010,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2016,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2022,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2028,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2037,48): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2037,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2044,48): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2044,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2051,48): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2051,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2058,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2058,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2065,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2065,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2074,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2074,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2081,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2081,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2088,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2088,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2095,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2095,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2102,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2102,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2111,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2111,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2118,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2118,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2125,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2125,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2132,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2132,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2139,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2139,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2148,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2148,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2157,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2164,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2166,37): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2174,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2181,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2243,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2254,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2265,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2276,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2284,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2404,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2410,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2419,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2427,99): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2433,99): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2442,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2448,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2454,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2463,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2471,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2476,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2485,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2490,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2499,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2504,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2513,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2518,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2527,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2532,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2541,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2546,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2551,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2558,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2560,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2565,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2567,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2608,89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2609,96): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2612,80): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2613,96): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2616,86): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2617,96): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2851,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2862,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2866,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2875,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2884,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2891,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2897,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2901,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2910,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2919,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2926,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2933,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2934,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2935,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2944,37): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2945,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2951,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2952,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2957,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2958,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2974,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2976,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2978,108): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2979,108): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2986,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2994,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2995,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(2996,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3006,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3007,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3008,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3018,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3019,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3020,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3030,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3031,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3032,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3040,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3041,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3043,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3044,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3053,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3054,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3061,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneAssignment2.cpp(3061,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  SceneUI.cpp
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(268,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(295,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(445,118): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(446,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(447,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(451,127): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(452,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(453,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(457,123): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(458,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(459,97): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(463,121): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(464,95): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(465,95): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(475,145): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(476,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(477,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(499,53): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(499,76): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(501,54): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(501,76): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(510,60): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(528,60): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(531,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(542,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(545,58): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(576,53): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(576,75): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(579,54): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(579,76): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(582,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(586,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(589,59): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(592,72): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(602,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(612,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(613,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(615,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(616,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(618,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(619,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(621,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(622,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(671,64): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(674,64): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(729,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(731,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(733,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(735,63): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(783,73): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(783,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(824,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(825,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(884,76): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(884,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(938,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1002,87): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1002,126): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1003,54): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1004,87): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1004,126): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1005,56): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1015,29): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1017,29): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1027,30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1035,30): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1047,30): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1055,30): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1113,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1127,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1141,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1155,25): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1340,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1340,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1340,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1340,114): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1356,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1357,59): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1358,57): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1359,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1451,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1460,55): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1469,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1478,53): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1485,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1486,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1487,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1488,68): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1489,33): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1490,43): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1510,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1514,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1518,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1522,58): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1624,22): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1631,32): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1632,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1637,24): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1893,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1899,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1935,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1941,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1947,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1954,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1965,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1971,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1977,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1983,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(1989,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2000,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2006,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2012,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2018,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2024,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2030,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2036,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2042,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2048,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2054,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2060,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2069,48): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2069,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2076,48): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2076,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2083,48): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2083,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2090,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2090,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2097,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2097,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2106,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2106,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2113,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2113,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2120,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2120,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2127,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2127,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2134,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2134,50): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2143,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2143,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2150,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2150,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2157,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2157,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2164,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2164,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2171,49): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2171,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2180,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2180,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2189,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2196,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2198,37): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2206,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2213,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2275,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2286,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2297,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2308,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2316,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2436,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2442,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2451,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2459,99): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2465,99): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2474,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2480,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2486,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2495,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2503,98): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2508,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2517,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2522,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2531,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2536,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2545,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2550,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2559,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2564,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2573,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2578,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2583,97): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2590,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2592,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2597,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2599,96): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2640,89): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2641,96): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2644,80): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2645,96): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2648,86): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2649,96): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2883,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2894,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2898,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2907,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2916,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2923,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2929,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2933,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2942,40): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2951,39): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2958,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2965,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2966,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2967,89): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2976,37): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2977,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2983,38): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2984,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2989,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(2990,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3006,34): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3008,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3010,108): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3011,108): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3018,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3026,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3027,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3028,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3038,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3039,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3040,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3050,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3051,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3052,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3062,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3063,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3064,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3072,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3073,32): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3075,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3076,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3085,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3086,88): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3093,52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lukea\source\repos\Studio-Project-2\Application\Source\SceneUI.cpp(3093,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  shader.cpp
+  Utility.cpp
+  Generating Code...
+  Application.vcxproj -> C:\Users\lukea\Source\Repos\Studio-Project-2\Debug\Application.exe
